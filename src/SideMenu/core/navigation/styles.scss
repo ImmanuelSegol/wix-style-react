@@ -152,7 +152,7 @@ $padding-vertical: 14px;
 }
 
 :global(.rtl) {
-  .linkArrow {
+  .linkArrow svg {
     transform: scaleX(-1);
   }
 

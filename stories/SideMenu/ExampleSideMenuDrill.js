@@ -32,6 +32,11 @@ const items = [
     {type: 'link', to: '//wix.com', title: 'link #3_1'},
     {type: 'link', to: '//wix.com', title: 'link #3_2'},
     {type: 'link', to: '//wix.com', title: 'link #3_3'}
+  ]},
+  {type: 'menu', title: 'Sub Menu #4 with long title', items: [
+    {type: 'link', to: '//wix.com', title: 'link #4_1'},
+    {type: 'link', to: '//wix.com', title: 'link #4_2'},
+    {type: 'link', to: '//wix.com', title: 'link #4_3'}
   ]}
 ];
 
@@ -168,7 +173,7 @@ class ExampleSideMenuDrill extends React.Component {
     const {items} = this.state;
 
     return (
-      <div style={{width: 220, height: 700, display: 'flex', direction: 'rtl'}}>
+      <div style={{width: 220, height: 700, display: 'flex'}}>
         <div style={{display: 'flex', flexGrow: 1}}>
           <SideMenuDrill inFlex stickyFooter={this.renderFooter()}>
             {this.renderHeader()}

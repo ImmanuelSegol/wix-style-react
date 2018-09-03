@@ -25,8 +25,13 @@ storiesOf('6. Navigation', module)
 
       <h1>Usage examples</h1>
 
-      <CodeExample title="SideMenu Example" code={ExampleSideMenuDrillRaw}>
+      <CodeExample title="SideMenu " code={ExampleSideMenuDrillRaw}>
         <ExampleSideMenuDrill/>
+      </CodeExample>
+      <CodeExample title="SideMenuDrill RTL" code={ExampleSideMenuDrillRaw}>
+        <div className="rtl">
+          <ExampleSideMenuDrill/>
+        </div>
       </CodeExample>
     </div>
   ))
